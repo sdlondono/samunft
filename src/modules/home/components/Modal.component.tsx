@@ -1,12 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
+import { notFoundImage, resizeImage } from "../constants";
 import useGetOwnersByAsset from "../hooks/useGetOwnersByAsset";
-
-const resizeImage =
-  "https://res.cloudinary.com/marcba/image/fetch/f_webp,q_60,w_640,h_427";
-
-const notFoundImage =
-  "https://res.cloudinary.com/ddv6amwz9/image/upload/v1678138109/b6hjzxtm6ngurl7lvdxp.png";
 
 const openseaURL = "https://opensea.io/assets";
 
@@ -48,7 +43,6 @@ const ModalComponet: React.FC<ModalComponetProps> = ({
                 </span>
               </button>
             </div>
-            {/*body*/}
             <div className="relative p-6 flex-auto">
               <Image
                 onError={() => setIsImageError(true)}
@@ -76,7 +70,6 @@ const ModalComponet: React.FC<ModalComponetProps> = ({
                 {description}
               </p>
             </div>
-            {/*footer*/}
             <div className="flex items-center justify-end p-6 border-t border-solid border-gray-700 rounded-b">
               <button
                 className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
@@ -96,7 +89,7 @@ const ModalComponet: React.FC<ModalComponetProps> = ({
           </div>
         </div>
       </div>
-      <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+      <div className="opacity-25 fixed inset-0 z-40 bg-black" />
     </>
   );
 };
