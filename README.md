@@ -2,6 +2,12 @@
 
 SamuNFT is a tool that allows you to find all assets associated with a given Ethereum address. This can be useful for tracking the ownership of NFTs (non-fungible tokens) and other digital assets on the Ethereum blockchain.
 
+
+https://user-images.githubusercontent.com/29387286/223284380-ad7d87e3-e71c-412d-9b9f-e12fcf9b6a27.mov
+
+
+
+
 ## Instalation
 
 To use SamuNFT, you will need to have `Node.js` or `Yarn` installed on your system. You can then install the dependencies by running:
