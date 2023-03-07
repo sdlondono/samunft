@@ -15,8 +15,6 @@ type ModalComponetProps = {
   name: string;
   description: string;
   image_url: string;
-  username?: string;
-  address?: string;
   total_price?: string;
   tokenId: string;
   assetContractAddress: string;
@@ -27,8 +25,6 @@ const ModalComponet: React.FC<ModalComponetProps> = ({
   name,
   description,
   image_url,
-  username,
-  address,
   tokenId,
   assetContractAddress,
 }) => {

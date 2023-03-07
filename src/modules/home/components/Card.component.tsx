@@ -14,7 +14,6 @@ const CardComponent: React.FC<CardComponentProps> = ({
   image_url,
   name,
   description,
-  last_sale,
   token_id,
   asset_contract,
 }) => {
@@ -68,8 +67,6 @@ const CardComponent: React.FC<CardComponentProps> = ({
           name={name}
           description={description}
           image_url={image_url}
-          address={last_sale?.transaction?.from_account?.address}
-          username={last_sale?.transaction?.from_account?.user.username}
           tokenId={token_id}
           assetContractAddress={asset_contract.address}
         />
