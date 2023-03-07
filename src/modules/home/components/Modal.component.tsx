@@ -58,10 +58,10 @@ const ModalComponet: React.FC<ModalComponetProps> = ({
               ) : (
                 <div>
                   <h4 className="text-white font-bold text-2xl mt-3">
-                    {owners[0]?.owner.user.username}
+                    {owners[0]?.owner.user.username ?? "No Name"}
                   </h4>
                   <h5 className="text-slate-300 font-bold text-lg">
-                    {owners[0]?.owner.address}
+                    {owners[0]?.owner.address ?? "No Address"}
                   </h5>
                 </div>
               )}
