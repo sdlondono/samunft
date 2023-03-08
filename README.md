@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/29387286/223285710-1e6a5b21-638e-492d-
 
 ## Instalation
 
-To use SamuNFT, you will need to have `Node.js` or `Yarn` installed on your system. You can then install the dependencies by running:
+To use SamuNFT, you will need to have `Node.js` installed on your system. You can then install the dependencies by running:
 
 ```javascript
 yarn install
